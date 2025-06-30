@@ -12,6 +12,7 @@ import Navbar from './components/navbar'
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
+        <Navbar />
 <Routes>
   <Route>
     <Route path='/' element={<Home />} />
@@ -28,5 +29,6 @@ const App = () => {
     </div>
   )
 }
+
 
 export default App
